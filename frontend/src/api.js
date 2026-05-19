@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api/",
+  baseURL: "https://college-placement-system-l1xv.onrender.com/api/",
 });
 
 // Automatically attach JWT token to every request
